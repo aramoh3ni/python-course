@@ -80,3 +80,39 @@
 
 # del persons[-1], persons[-1]
 # print("\n Program is done! 😂" + str(persons))
+
+
+# NOTE:: EXCERSICE 3
+# fevorite_palces = ["iraq", "uae", "germany", "france", "swizerland"]
+# print(fevorite_palces)
+# print(sorted(fevorite_palces))
+# fevorite_palces.reverse()
+# print(fevorite_palces)
+# fevorite_palces.reverse()
+# print(fevorite_palces)
+# fevorite_palces.sort()
+# print(fevorite_palces)
+# fevorite_palces.sort(reverse=True)
+# print(fevorite_palces)
+
+# persons = ["Hamid", "Amir Hussain", "Jawid", "Karim", "Salim"]
+# print(persons.__len__())
+# print(len(persons))
+
+# products = ['dell', 'apple', 'samsung', 'toshiba', 'hp']
+
+# print(products[0])
+# products[1] = "black berry"
+# products.append("Lenevo")
+# products.insert(2, "google")
+# products.pop()
+# products.pop(2)
+# # del products[2]
+
+# products.sort()
+# products.sort(reverse=True)
+# print(sorted(products))
+# products.reverse()
+# products.remove('black berry')
+
+# print(products)

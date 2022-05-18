@@ -9,6 +9,7 @@
 
 names = ['Ali Mohammadi', 'Karimuldin', "Jawed Mohammad", 'Alireza']
 motorcycles = ['yamaha', 'suzuki', 'honda']
+cars = ['bmw', 'audi', 'toyota', 'subaru']
 
 # display how excally list is.
 # print(names)
@@ -97,3 +98,39 @@ motorcycles = ['yamaha', 'suzuki', 'honda']
 # message = f"\n{too_expensive.title()} is expensize for me and i can't own that, let\'s try another."
 # print(message)
 # print(motorcycles)
+
+# Organizin a List
+# Sorting a list permanently with the sort() method
+# sort() method sort list alphabetically, assume that all the values in the list be lowercase
+# print(f"unOrdered List {cars}")
+# cars.sort() # a-z
+# print(f"Ordered List {cars}")
+# We can also sort reversely our list
+# cars.sort(reverse=True) # z-a
+# print(f"Reverse Ordered List {cars}")
+
+# Sorting a List Temporarily with the sorted() fucntion
+# it display our list in a particular order but doesn't affect the actual order of the list
+# print(f"not Sorted() fucntion Orders {cars}")
+# print(f"Sorted() fucntion Orders {sorted(cars)}")
+# print(f"not Sorted() fucntion Orders {cars}")
+
+# Printing a list Reverse Order
+# to reverse order a list using revers() method
+# print(f"Orginal list {cars}")
+# cars.reverse()
+# print(f"Orginal list {cars}")
+
+# Finding the length of a list
+# we use in 2 methos and function 
+# list_name.__len__()
+# len(list_name)
+
+# print(names.__len__()) # return int (4)
+# print(len(names)) # return int (4)
+
+# NOTE:: len() method starting from 1 not 0 index of list
+# so don't use if anyway otherwize get error
+# we solve is by puting -1
+
+
