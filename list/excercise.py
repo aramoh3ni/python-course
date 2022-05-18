@@ -116,3 +116,18 @@
 # products.remove('black berry')
 
 # print(products)
+
+# NOTE:: EXCERCISE 4
+# List errors
+# error out of range error last index 
+# numbers = [1, 2, 3]
+# print(numbers[3])
+# error Solution
+# print(numbers[-1])
+
+# error empty list
+numbers = []
+# print(numbers[-1])
+# error solution
+# the best solution for list error is using len() method of 
+# __len__() function and if else statement

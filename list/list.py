@@ -134,3 +134,7 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 # we solve is by puting -1
 
 
+# Avoiding Index Erros when working with lists
+# print(motorcycles)
+# print(motorcycles[3])
+# print(len(motorcycles))
