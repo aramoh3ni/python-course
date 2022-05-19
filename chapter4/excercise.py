@@ -39,3 +39,26 @@
 
 # cube = [c ** 3 for c in range(1, 11)]
 # print(cube)
+
+# NOTE:: Excercise 3
+# Slices
+# users = ['ahmad', 'jawid', 'karim', 'mohammad', 'reza']
+# print(f"the first 3 users are: {users[:3]}")
+# print(f"the middle 3 users are: {users[1:-1]}")
+# print(f"the last 3 users are: {users[-3:]}")
+
+# foods = ['qabuli', 'shorba', 'ashak', 'bolani', 'kabab']
+# friend_food = foods[:]
+# new_food = "shorma"
+# foods.append(new_food)
+
+# new_friend_food = "chapli kabab"
+# friend_food.append(new_friend_food)
+
+# print("My Fevorid foods are: ")
+# for food in foods:
+#     print(food)
+
+# print("My Friend fevorid foods are: ")
+# for f_food in friend_food:
+#     print(f_food)
