@@ -62,3 +62,15 @@
 # print("My Friend fevorid foods are: ")
 # for f_food in friend_food:
 #     print(f_food)
+
+# NOTE:: Excercise 4
+# buffels = ("pizza", "rice", "potato", "fast food", "shorba")
+# for buffel in buffels:
+#     print(buffel)
+
+# buffel[0] = "Cheps" # ERROR 
+
+# buffels = ("Shorma", "kabuli")
+# for buffel in buffels:
+#     print(buffel)
+
