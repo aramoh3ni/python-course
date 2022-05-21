@@ -87,3 +87,35 @@
 # if we leave out second argument in get() method it will return None you no value exits
 # name = dic.get('pint')
 # print(name) 
+
+# Looping Through a Dictionary
+# Python Allow us to loop to get items of dictionary 
+# users = {
+#     "usrname": "efermi",
+#     "first": "enrico",
+#     "last": "fermi"
+# }
+# get value and key of a dic
+# item() method return both key and value
+# for key, value in users.items():
+    # print(f"The key is: {key} and value is: {value}")
+# Get only value of a dic
+# key() method is useful when you don't need to work with all of
+# the values in a dictionary
+# key() method allow us to find out if a articular person was polled for example
+# for name in users.keys():
+    # print(name.title())
+
+# Looing through a dictionary's key in a particular order
+# for value in sorted(users.keys()):
+    # print(value)
+
+# Looping through all values in dictionary
+# return all values of each key
+# for value in users.values():
+#     print(value)
+
+# NOTE:: we can build a set dicrectly using braces and seprating the elements with cammas,
+# languages = {"python", "ruby", "java", "c#", "c++"}
+# for lang in languages:
+#     print(lang)
