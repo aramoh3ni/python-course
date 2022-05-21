@@ -6,6 +6,9 @@
 # list elements can contain letters, digits or names
 # collection of item in partuicolar order
 # list []
+# -> Ordred
+# -> Changable
+# -> allow duplicate
 
 names = ['Ali Mohammadi', 'Karimuldin', "Jawed Mohammad", 'Alireza']
 motorcycles = ['yamaha', 'suzuki', 'honda']
