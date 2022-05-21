@@ -76,14 +76,49 @@ computers = ['dell', 'mac', 'toshiba', 'samsung']
 # Testing Multiple Conditions
 # if-elif-else is powerfull but it just only for one test to pass
 # we use if statment for testing multiple conditions
-require_topices = ['mushrooms', 'extra cheese']
+# require_topices = ['mushrooms', 'extra cheese']
 
-if 'mushrooms' in require_topices:
-    print("Adding myshrooms.")
-if 'pepperoni' in require_topices:
-    print("Adding pepperoni.")
-if 'extra cheese' in require_topices:
-    print("Adding Extra cheese")
+# if 'mushrooms' in require_topices:
+#     print("Adding myshrooms.")
+# if 'pepperoni' in require_topices:
+#     print("Adding pepperoni.")
+# if 'extra cheese' in require_topices:
+#     print("Adding Extra cheese")
 
-print('\nFinised making you pizza')
+# print('\nFinised making you pizza')
 
+# Checking for special items
+# requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+
+# for value in requested_toppings:
+#     if value == 'green peppers':
+#         print("Sorry, we care out of geen peppers right now")
+#         continue
+
+#     print(f"Adding {value.title()}.")
+
+# print('\nFinised making you pizza')
+
+# Checking that a list is not empty
+# requested_toppings = []
+# if requested_toppings:
+#     for value in requested_toppings:
+#         if value == 'green peppers':
+#             print("Sorry, we care out of geen peppers right now")
+#             continue
+#         print(f"Adding {value.title()}.")
+#     print('\nFinised making you pizza')
+# else:
+#     print('Are you sure you want a pain pizza?')
+
+# Using Multiple lists
+# available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
+# requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+# for requested_topping in requested_toppings:
+#     if requested_topping in available_toppings:
+#         print(f"Adding {requested_topping}")
+#     else:
+#         print(f"Sorry, we don't have {requested_topping}")
+# print('\nFinished making your pizza')
+
+# 

@@ -46,11 +46,47 @@
 # elif person_age >= 65:
 #     print(f"Person in {person_age} year is an elder \n")
 
-fevorite_fruits = ['apple', 'orange', 'pinapple', 'banana']
+# fevorite_fruits = ['apple', 'orange', 'pinapple', 'banana']
 
-if 'apple' in fevorite_fruits:
-    print("You really like apple")
-if 'banana' in fevorite_fruits:
-    print('You really like banana')
+# if 'apple' in fevorite_fruits:
+#     print("You really like apple")
+# if 'banana' in fevorite_fruits:
+#     print('You really like banana')
 
+# NOTE:: Excercise 3
+usernames = ['admin', 'aramohseni', 'karimi@', 'homayon_22']
+# usernames.clear() # make a list empty
+# if usernames:
+#     for username in usernames:
+#         if username == 'admin':
+#             print(f"Hello {username}, would you like to see a status reports?")
+#         else:
+#             print(f'Hello {username}', "thank you for logging in again.")
+# else:
+#     print("Please Signup before login, no user!")
 
+# current_users = usernames
+# new_users = usernames[0:3]
+# new_users.append("hamidi".lower())
+# new_users.append("Javadi".lower())
+
+# for user in new_users:
+#     if user in current_users:
+#         print(f"this {user} have been taken. ✂️")
+#         continue
+#     else: 
+#         print(f"adding {user} in to database ... ✔️")
+
+# print("process finished. 🤠")
+
+# for position in range(1, 10):
+#     if position == 1:
+#         print(f"You got {position}st Position")
+#         continue
+#     elif position == 2:
+#         print(f"You got {position}nd Position")
+#         continue
+#     elif position == 3:
+#         print(f"You got {position}rd Position")
+#         continue
+#     print(f"You got {position}th Position")
