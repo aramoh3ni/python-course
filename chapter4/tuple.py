@@ -5,6 +5,8 @@
 # NOTE:: Tuples
 # in typles values cannot change as immutable, and immutable 
 # list is called tuple
+# -> Ordered
+# -> upchanagable
 
 # myTuple = (200, 100)
 # print(myTuple)
