@@ -70,3 +70,70 @@
 #         continue
 #     else:
 #         print(f"hey, {person} please take a pole")
+
+# NOTE:: Excercise 3
+# people = {
+#     "nid": "77888876555",
+#     "fname": "alireza",
+#     "lname": "mohseni",
+#     "passport": "p48393948",
+#     "age": 23,
+#     "location": "franch"
+# }
+
+# for key, value in people.items():
+#     print(f"{key.title()}: {str(value).title()}")
+
+
+# pets = {
+#     "ronaldo": "cat",
+#     "naymar": "bird",
+#     "messi": "dog"
+# }
+
+# for owner, pet in pets.items():
+#     print(f"{owner.title()} loves to have more {pet.title()}s")
+
+# favorite_palces = {
+#     "ronaldo": ["paris", "barcelona", "madrid"],
+#     "messi": ["paris", "barcelona", "madrid"],
+#     "naymary": ["paris", "barcelona", "madrid"],
+#     "alireza": ["kabul", "ghazni", "🤭"]
+# }
+
+# for person, place in favorite_palces.items():
+#     print(person.title())
+#     for city in place:
+#         print(f"Love to go {city.title()}")
+
+#     print("\n")
+
+
+# cities = {
+#     "kabul": {
+#         'name': "kabul",
+#         "country": "afghanistan",
+#         "population": 3000000,
+#         "point": "asia"
+#     },
+#     "dubai": {
+#         "name": "dubai",
+#         "country": "emarates",
+#         "population": 500000000,
+#         "point": "asia"
+#     }
+# }
+
+# for kay, value in cities.items():
+#     print(f"Name: {value['name'].title()}")
+#     print(f"Country: {value['country'].title()}")
+#     print(f"Population: {value['population']}")
+#     print(f"Located on: {value['point'].title()}\n")
+
+# dic_0 = {"fname": "alireza", "lname": "mohseni", "age": 23, "status": False}
+# dic_1 = {"fname": "ali madad", "lname": "nawid", "age": 25, "status": True}
+
+# users = [dic_0, dic_1]
+# for user in users:
+#     print(user['fname'].title() + " " + user['lname'].title())
+#     print(user.values())

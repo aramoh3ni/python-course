@@ -119,3 +119,55 @@
 # languages = {"python", "ruby", "java", "c#", "c++"}
 # for lang in languages:
 #     print(lang)
+
+# NESTING
+# we we want to store multiple dictionaries in a list, or a list of items as value in a dictionary
+
+# A list of Dictionaries
+# dic_0 = {"fname": "alireza", "lname": "mohseni", "age": 23, "status": False}
+# dic_1 = {"fname": "ali madad", "lname": "nawid", "age": 25, "status": True}
+
+# users = [dic_0, dic_1]
+# for user in users:
+#     print(user['fname'].title() + " " + user['lname'].title())
+#     print(user.values())
+
+# A list inside a dictionaries
+# dic_0 = {
+#     "fname": "alireza",
+#     "lname": "mohseni",
+#     "phones": [
+#         748482555,
+#         704788403,
+#         202201093
+#     ]
+# }
+
+# print(dic_0['fname'])
+# print(dic_0['lname'])
+# for phone in dic_0['phones']:
+#     print(f"Phone: {phone}")
+
+# NOTE:: we sould not nest lists and didctionaries too deeply.
+# if we nesting items much deeper than what you see in the preceding expamples or you're working with someone else;s code with significant levels of nesting, most likly a simple way to solve the problem exits
+
+# A Dictionary In A Dictionary
+
+# users = {
+#     "alirezamohseni_778854203": {
+#         "fname": "alireza",
+#         "lname": "mohseni",
+#         "phone": 704788403
+#     },
+#     "karimalawi_88503878489": {
+#         "fname": "karim",
+#         "lname": "alawi",
+#         "phone": 748482555
+#     }
+# }
+
+
+# for user in users.values():
+#     print(user['fname'])
+#     print(user['lname'])
+#     print(user['phone'])
