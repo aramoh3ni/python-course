@@ -124,3 +124,57 @@
 #     print(f"Net pay: {total_price - dics}$")
 #     break
 
+# Moving items from one list to another list
+# unconfirmed_users = ['karim', 'hamid', 'jawid']
+# confirmed_users = []
+
+# while unconfirmed_users:
+#     current_user = unconfirmed_users.pop()
+
+#     print(f"Verfying : {current_user} ...")
+#     confirmed_users.append(current_user)
+#     print(f"{current_user} is active now \n")
+
+# Removing All Instances of specific value from a list
+# pets = ["dog", 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+# print(pets)
+# while 'cat' in pets:
+#     pets.remove("cat")
+
+# print(pets)
+
+# Filling a Dictionary with user input
+# responses = {}
+# Set a flag to indicate that polling is active.
+# polling_active = True
+# while polling_active:
+# Prompt for the person's name and response.
+    # name = input("\nWhat is your name? ")
+    # response = input("Which mountain would you like to climb someday? ")
+# Store the response in the dictionary.
+    # responses[name] = response
+# Find out if anyone else is going to take the poll.
+    # repeat = input("Would you like to let another person respond? (yes/ no) ")
+    # if repeat == 'no':
+    #     polling_active = False
+# Polling is complete. Show the results.
+#     print("\n--- Poll Results ---")
+# for name, response in responses.items():
+#     print(f"{name} would like to climb {response}.")  
+
+# Sandwich orders example
+# sandwich_orders = ['abc', 'ors', 'ppafg']
+# finished_sandwiches = []
+
+# while True:
+#     print("Choose Sandwich and enter the name")
+#     for sand in sandwich_orders:
+#         print(f"- {sand}")
+
+#     name = input("Enter Sandwich Name: ")
+#     print("In progress...")
+#     finished_sandwiches.append(name)
+#     print("Done")
+#     break
+
+# print(finished_sandwiches)
