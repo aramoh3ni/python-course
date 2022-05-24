@@ -19,3 +19,4 @@ from datetime import datetime
 # THE Modulo Operator
 # usefull toll for working with numerical information, which divids one numer with other then return the remainder
 # print(4 % 3) # return 1
+
