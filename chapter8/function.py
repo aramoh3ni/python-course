@@ -78,3 +78,63 @@
 # print(say_hello(name="Alireza", lname="Mohseni"))
 # print(say_hello(lname="Mohseni", name="Alireza"))
 # print(say_hello("Alireza", "Mohseni"))
+
+
+
+# Return Value
+# the return statement takes a value from inside a function and sends it back to the line that caled the function.
+
+# def get_formatted_name(fname = 'johan', lname = "doe"):
+#     """return full name as formatted title()"""
+#     full_name = "{} {}".format(fname, lname)
+#     return full_name.title()
+
+# your_name = get_formatted_name("Alireza", "Mohseni")
+# print(your_name)
+
+
+# Making and Argument Optional
+# we can pass argument optional inside calling a function
+# def full_formatted_name(fName, lName, mName=''):
+#     """return full name with middle name optional"""
+#     full_name = "{} {} {}".format(fName, mName, lName)
+#     return full_name.title()
+
+# your_name = full_formatted_name("ali", "mohseni", "reza")
+# print(your_name)
+
+
+# Return Dictionary
+# def build_person(fName, lName, height, eyeColor, color, mName=None):
+#     person = {
+#         "first_name": fName,
+#         "last_name": lName,
+#         "eye_color": eyeColor,
+#         "color": eyeColor
+#     }
+
+#     if mName:
+#         person["middle_name"] = mName
+
+#     return person
+
+# person = build_person("alireza", "mohseni", 184, "black", "Kandomi", "Ehaam")
+# print(person)
+
+# Using a function with a while loop
+# def get_formatted_name(fName, lName):
+#     """Return a full name, neatly formatted"""
+#     full_name = "{} {}".format(fName, lName)
+#     return full_name.title()
+
+# while True:
+#     print("\nEnter you information please. or enter [q] to quit")
+#     f_name = input("Enter your name: ")
+#     l_name = input("Enter your lname: ")
+
+#     if f_name == 'q' or l_name == "q":
+#         break
+
+#     formatted_name = get_formatted_name(f_name, l_name)
+#     print(f"\nHello, {formatted_name}. Wellcome back")
+    

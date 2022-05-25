@@ -34,3 +34,37 @@
 # describe_city("new york")
 # describe_city("Kabul", "Afghanistan")
 # describe_city(city="Homborg", country="Germany")
+
+
+# NOTE:: Excercise 3
+# def city_country(city, country):
+#     """return city and country name"""
+#     return "{}, {}".format(city, country).title()
+
+# print(city_country("kabul", "afghanistan"))
+
+# def make_album(title, artist, songs = None):
+#     """return album dictiona object"""
+#     album = {
+#         "title": title,
+#         "artist": artist
+#     }
+
+#     if songs:
+#         album['songs'] = songs
+
+#     return album
+
+
+# while True:
+#     print("\nEnter you album")
+#     title = input("Enter title: ")
+
+#     if title == 'q': break
+
+#     artist = input("Enter Artist: ")
+#     songs = input("Enter total Songs: ")
+
+
+#     ablum = make_album(title, artist, songs)
+#     print(ablum)
