@@ -68,3 +68,30 @@
 
 #     ablum = make_album(title, artist, songs)
 #     print(ablum)
+
+
+# NOTE:: Excercise 4
+# def show_messages(messages):
+#     for msg in messages:
+#         print(msg)
+
+# messages = [
+#     "Hello for every one",
+#     "Please confirm you email address",
+#     "Hello you team to grow"
+# ]
+# show_messages(messages)
+
+# def send_message(messages):
+#     sent_messages = []
+#     while messages:
+#         current_message = messages.pop()
+#         sent_messages.append(current_message)
+#         print(f"{current_message} is in progress...")
+#         print("DONE")
+    
+#     print("\nALL MESSAGES IS HERE\n")
+#     for msg in sent_messages:
+#         print(msg)
+
+# send_message(messages)

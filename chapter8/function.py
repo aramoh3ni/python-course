@@ -138,3 +138,29 @@
 #     formatted_name = get_formatted_name(f_name, l_name)
 #     print(f"\nHello, {formatted_name}. Wellcome back")
     
+
+# Passing a List
+# we will often find it useful to pass a list to a function
+# def greet_users(users):
+#     """Print a Simple greeting to each users"""
+#     for user in users:
+#         msg = "Hello Dear, {}"
+#         print(msg.format(user).title())
+
+# users = ["alireza", "karim", "hamid", "jawid"]
+# greet_users(users)
+
+# Modifying a list in function
+# current_tasks = ['Fix the navbar responsive', 'Create Mobile Navbar', "Update New version", "Debug the ancomes"]
+
+# def task(tasks):
+#     complete_tasks = []
+#     while tasks:
+#         progress_task = tasks.pop()
+#         complete_tasks.append(progress_task)
+#         print(f"{progress_task} is in process")
+
+#     print("\nTHE FOLLOWING MODELS HAVE BEEN DONE\n")
+#     for c_task in complete_tasks:
+#         print(f"{c_task} is done.")
+# task(current_tasks)
