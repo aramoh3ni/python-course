@@ -164,3 +164,30 @@
 #     for c_task in complete_tasks:
 #         print(f"{c_task} is done.")
 # task(current_tasks)
+
+# Passing an Arbitrary Number of Arguments
+# Sometimes you won't know a head of time how many arguments a function needs to accept.
+
+# NOTE:: THE Syntax works no matter how many arguments the function receives.
+
+# def make_pizza(*toppings):
+#     print("\nMaking a pizza with the follwing toppings.")
+#     for topping in toppings:
+#         print(f"- {topping}")
+
+# make_pizza('extra cheese')
+# make_pizza('mashrooms', 'green peppers', 'extra cheese')
+# The asterisk in the parameter name *topping tells Python to make an empty tuple called toppings and pack whatever values it recevice into this tuple.
+
+# Using Arbitrary Keyword Arguments
+# def build_profile(first, last, **user_info):
+#     user_info['first_name'] = first
+#     user_info['last_name'] = last
+#     return user_info
+
+
+# user_profile = build_profile("Alireza", "Mohseni", location="Afghanistan", education="Bachler")
+
+# print(user_profile)
+
+

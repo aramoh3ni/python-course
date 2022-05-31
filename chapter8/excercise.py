@@ -95,3 +95,35 @@
 #         print(msg)
 
 # send_message(messages)
+
+# NOTE:: Excercise 5
+# def sandwich_ingerdiends(*args):
+#     print('\nThere are the sandwich ingerdiends: ')
+#     for sandwich in args:
+#         print(f"- {sandwich.title()}")
+
+# sandwich_ingerdiends()
+# sandwich_ingerdiends('salad', 'cucumber', 'chicken')
+# sandwich_ingerdiends('salad', 'cucumber', 'chicken', 'pastrami', 'tuna')
+
+# def build_profile(first, last, **kwargs):
+#     kwargs['first_name'] = first
+#     kwargs['last_name'] = last
+#     return kwargs
+
+# my_profile = build_profile(
+#     "Alireza",
+#     "Mohseni",
+#     age=23,
+#     country="Afghanistan",
+#     education="Bachelor"
+# )
+
+# print(type(my_profile))
+
+# def cars(manufacturer, model, **kwargs):
+#     kwargs['manufacturer'] = manufacturer
+#     kwargs['model'] = model
+#     return kwargs
+
+# print(cars("subru", 'outback', color='red', tow_package=True))
