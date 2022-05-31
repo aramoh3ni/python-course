@@ -191,3 +191,29 @@
 # print(user_profile)
 
 
+# Storing Our Function in Modules
+# it allow us to store block of code in saprete file and import as module by import statment to currently running programm
+# reuse function in many different programms.
+# hide the details of our program and focuse on its higher-level logic.
+
+# Importing An Entire Module
+# Moduel is a file .py extention that contains the code we want to import into our program.
+
+# import profile
+
+# my_profile = profile.build_profile("alireza", "mohseni", age=23)
+# print(my_profile)
+
+
+# Import Moduel
+# == import <module_name>
+# Import Specific Function
+# == from <module_name> import <function_name>
+
+# Using (as) to Give a function an alias
+# == from <module_name> import <function_name> as <new_function_name>
+# Using (as) t Give a Module an Alias
+# == import <module_name> as <new_module_name>
+
+# Importing All Function in a Module
+# == from <module_name> import *
