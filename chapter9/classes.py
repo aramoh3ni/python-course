@@ -126,3 +126,75 @@
 # Example inside Car Class
 # new_car.increment_odometer(100)
 # new_car.read_odometer()
+
+# ==============================================================
+# Inheritance
+# When on class inherits fro another, it takes on the attributes and methods of the first class.
+# Orginal Class = Parent Class
+# New Class = Child Class
+# when we inherit parent attributes and methods child class is free to have owen methods and properties
+
+# -------------------------------------------------------------
+# The __init__() Method for child class
+# Main Class
+# class Car: 
+#     def __init__(self, name, model, year):
+#         self.name = name
+#         self.model = model
+#         self.year = year
+
+#     def set_car(self, name, model, year):
+#         self.name = name
+#         self.model = model
+#         self.year = year
+
+#     def get_car(self):
+#         car_info = f"{self.name} {self.model} {self.year}"
+#         return car_info.title()
+
+# ------------------------------------------------
+# Creating Supret class to define more effictively
+# Instances as Attributes
+# class Battery:
+#     def __init__(self, battery_size = 75):
+#         self.battery_size = battery_size
+
+#     def describe_battery(self):
+#         print(f"This car has a {self.battery_size}-kWH battery.")
+
+#     def get_range(self):
+#         if self.battery_size == 75:
+#             range = 260
+#         elif self.battery_size == 100:
+#             range = 315
+        
+#         print(f"This car can got about {range} miles on a full charge")
+
+# ------------------------------------------------
+# Inherite class
+# class ElectricCar(Car):
+#     """Represent aspects of a car, specific to electric vehicles"""
+
+#     def __init__(self, name, model, year, price):
+#         super().__init__(name, model, year)
+#         self.battery = Battery() # Define Attribute for child class and creating object of a class (Battery)
+#         self.price = price # Define Attribue for Child class
+
+#     def fill_gas_tank(self):
+#         print("This car doesn't need a gas tank")
+
+# my_tesla = ElectricCar("Tesla", "GTR2600", 2022, price=90000)
+
+# print(my_tesla.get_car())
+# my_tesla.battery.describe_battery()
+# my_tesla.fill_gas_tank()
+# my_tesla.battery.get_range()
+
+# --------------------------------------------------
+# Instances as Attributes
+# When modeling something from the real world in code. we may find that we are adding more and more details to a class. 
+# we will find that we have a growing list of attributes and methods and that our files are becoming lengthy. 
+# ? Solution
+#  we might recognize that part of one class can be written as a separate class.
+# we can break our large class into samller classes that work together.
+# Example to inside car, battery and electronic class
