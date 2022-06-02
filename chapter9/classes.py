@@ -253,3 +253,11 @@
 
 # int_number = random.randint(10, 100)
 # print(int_number)
+
+
+# --------------------------------------------------
+# Styling Classes
+# 1- Class name should be in CamelCase.
+# 2- Don't use underscore between words.
+# 3- every class should have docstring imediately follwing the class definition.
+# 4- docstring ("""some text""") should be a bried description of what the class does.
