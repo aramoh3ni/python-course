@@ -198,3 +198,50 @@
 #  we might recognize that part of one class can be written as a separate class.
 # we can break our large class into samller classes that work together.
 # Example to inside car, battery and electronic class
+
+# ---------------------------------------------------
+# Importing Classes
+# Python allow us to supreate our class, module in such external files to manage easly our project.
+# ---------------------------------------------------
+# Import Single Class
+# from car import Car
+
+# new_car = Car("Toyota", "GTR", 2019)
+# print(new_car.get_descriptive_name())
+# new_car.odometer_reading = 24
+# new_car.read_odometer()
+
+# ---------------------------------------------------
+# Storing Multiple Classes in a module
+
+# from car import ElectricCar
+
+# new_electric_car = ElectricCar("Tesla", "GTR", 2022)
+# print(new_electric_car.get_descriptive_name())
+# new_electric_car.battery.battery_size = 75
+# new_electric_car.battery.get_range()
+
+# --------------------------------------------------
+# Import Multiple classes from a module
+# from car import Car, ElectricCar
+
+# --------------------------------------------------
+# Import an Entire Module
+# import car
+# new_car = car.ElectricCar("Tesla", "GTR", 2019)
+# print(new_car.get_descriptive_name())
+
+# --------------------------------------------------
+# Import All Classes from a Module
+# from car import *
+
+# NOTE:: from <module_name> import *, is good and helpfull for smal project but it's not recommented for big project because it will lead to confusion with names in the files.
+
+# <module_name>.<class_name> is recommented for this type of importing
+
+# it's recomment to use saperate file to store multiple modules and import in nessasity files.
+
+# --------------------------------------------------
+# Using Aliases
+# from car import Car as myCar
+

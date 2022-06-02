@@ -144,3 +144,20 @@
 
 # my_tesla.battery.upgrade_battery()
 # my_tesla.battery.get_range()
+
+# from resturant import Rasturant
+# my_hotal = Rasturant("seyna hotal", "Family")
+# my_hotal.number_served = 2001
+# print(my_hotal.describe_restaurant())
+
+# NOTE:: Excersise 4
+# from user import Users
+
+# admin = Users("alireza", "mohseni", "aramoh3ni", "JALKJASDFJI343", 1997)
+# print(admin.get_user_info())
+
+# from admin import Admin
+
+# privelage = ['add_post', 'delete_post', 'control_users']
+# new_admin = Admin("alireza", "mohseni", "aramoh3ni", "123", 1997, privelage)
+# new_admin.privelage.show_privileges()

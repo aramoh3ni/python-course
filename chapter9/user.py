@@ -36,4 +36,3 @@ class Users:
 
     def greed_user(self):
         print(f"Hello, {self.first} {self.last}")
-
