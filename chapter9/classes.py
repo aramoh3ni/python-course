@@ -245,3 +245,11 @@
 # Using Aliases
 # from car import Car as myCar
 
+# --------------------------------------------------
+# Thy Python Standard Library
+# Python standard library is a set of modules included with every python installation
+# We can import them sample by (import) statement
+# import random
+
+# int_number = random.randint(10, 100)
+# print(int_number)

@@ -150,7 +150,7 @@
 # my_hotal.number_served = 2001
 # print(my_hotal.describe_restaurant())
 
-# NOTE:: Excersise 4
+# NOTE:: Excercise 4
 # from user import Users
 
 # admin = Users("alireza", "mohseni", "aramoh3ni", "JALKJASDFJI343", 1997)
@@ -161,3 +161,33 @@
 # privelage = ['add_post', 'delete_post', 'control_users']
 # new_admin = Admin("alireza", "mohseni", "aramoh3ni", "123", 1997, privelage)
 # new_admin.privelage.show_privileges()
+
+# NOTE:: Excercise 5
+
+# from random import randint, choice
+# class Die: 
+#     def __init__(self, sides = 6):
+#         self.sides = sides
+
+#     def roll_die(self):
+#         return randint(1, self.sides)
+
+# die = Die(6)
+# for _ in range(0, 8):
+#     print(die.roll_die())
+
+# lottery_item = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "a", "b", "c", "d", "e"]
+
+# print("Follwing Charcters will win a prize.")
+# for _ in range(0, 4):
+#     print(str(choice(lottery_item)).title())
+
+# my_ticket = choice(lottery_item)
+
+# for i in range(0, len(lottery_item)):
+#     print(choice(lottery_item))
+#     if lottery_item[i] == my_ticket:
+#         print(f"It took { i+1 } iterations to get the ticket {lottery_item[i]}")
+#         break
+
+
