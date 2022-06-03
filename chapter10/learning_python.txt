@@ -1,0 +1,14 @@
+Hello and welcome to this Python carsh course. I am Alireza Mohseni some one who is working with python right now a days.
+In thie entire couse i know to how work python for example
+python variables
+python list
+python tuple
+python dictionaries
+python set
+python functions
+python class
+python import 
+python if, elif, if elif else statments
+python files and exeptions
+and much more
+I love to sharing this for all, hope it will be usefull. 🙂
