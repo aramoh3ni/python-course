@@ -94,3 +94,81 @@
 #     print(c)
 # except FileNotFoundError:
 #     print("file Not Found")
+
+# NOTE::     Excercise 4
+# def set_favorite_number(filename):
+#     """set number if file available"""
+#     import json
+#     numbers = []
+#     try:
+#        while True:
+#             num = input("Enter a number: ")
+#             if num == "q": break
+
+#             if num == "e" and len(numbers) <= 0:
+#                 print("you did not enter a number yet.")
+#                 continue
+#             elif num == "e" and len(numbers) > 0:
+                
+#                 with open(filename, "w") as f:
+#                     json.dump(numbers, f)
+#                 print("data saved successfully".title())
+#                 break;
+#             else:
+#                 numbers.append(int(num))
+
+#     except FileNotFoundError:
+#         print("file not found")
+#     except TypeError:
+#         print("Enter value integar number")
+    
+
+# def get_favorite_numer(filename):
+#     """Get stored number if avilibale"""
+#     import json
+#     try:
+#         with open(filename) as f:
+#             numbers = json.load(f)
+#     except FileNotFoundError:
+#         print("file not found")
+#     else: 
+#         print("All favorite Number")
+#         for num in numbers:
+#             print(f"- {num}")
+
+# print(set_favorite_number("numbers.json"))
+# print(get_favorite_numer('numbers.json'))
+
+# import json
+
+# def user_greeting(username):
+#     """print greeting message"""
+#     print(f"Dear {username}, welcome back ❤️‍🔥")
+
+# def add_new_username():
+#     """Add New Username if not existed yet."""
+#     username = input("Enter your new username: ")
+#     try:
+#         with open('users.json', 'w') as file_obj:
+#             json.dump(username, file_obj)
+#     except FileNotFoundError:
+#         print("File Not Found")
+#     else:
+#         print(f"{username.title()} we will remember you at next login: 🙂")
+
+# def get_username():
+#     """Get single store username in json file"""
+
+#     try:
+#         with open("users.json") as file_obj:
+#             username = json.load(file_obj)
+#         operation = input(f"is @{username} user last username? (y/n)")
+#         if operation == 'y': 
+#             user_greeting(username)
+#         else:
+#             add_new_username()
+#     except FileNotFoundError:
+#         print("file Not Found")
+
+
+# get_username()
