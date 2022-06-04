@@ -82,3 +82,20 @@
 # else:
 #     print("Your Birthday does not appears in the first million digits of pi.")
 
+
+# --------------------------------------------------------
+
+# NOTE:: pass a 2nd argument to open for reading ("r", default)
+# writing ("w"), appending("a")
+
+# Writing to an empty File
+# filename = "pi_digits.txt"
+# with open(filename, "w") as file_obj:
+    # file_obj.write("I am a Programmer.\n")
+    # file_obj.write("I love Python.\n")
+    # file_obj.write("I am using Django Rest Framework.\n")
+# Update or Append in file
+# with open("pi_digits.txt", "a") as file_obj:
+    # file_obj.write("\nI am a Software Engineer.\n")
+    # file_obj.write("I love help my community.\n")
+    # file_obj.write("The Django Rest Framework is the best.\n")
