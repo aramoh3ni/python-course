@@ -12,3 +12,6 @@
 
 #     full_path = get_city_country(city, country, population)
 #     print(f"\t{full_path}\n")
+
+# NOTE:: Excercise 2
+# Employee Example in another file employee.py and test_eemployee.py
