@@ -42,3 +42,8 @@ import matplotlib.pyplot as plt
 # ax.axis([0, 5100, 0, 135000000000])
 
 # plt.show()
+
+
+# NOTE:: Excersise 2
+# This excersise is done in its own file random_walk.py 
+# Each changies are commanted 

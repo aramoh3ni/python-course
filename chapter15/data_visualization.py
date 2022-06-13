@@ -193,3 +193,47 @@
 # plt.show()
 
 # plt.savefig('./squares_plot.png', bbox_inches='tight')
+
+# ------------------------------------------------------------------------------
+# Random Walks
+# we'll use Python to generate data for a random walk. 
+# A Random Walks is a path that has no clear direction but is determined by a serise of random decisions. 
+
+# Random Walks have partical applications in nature, physics, biology, chemistry, and economics. for example, a pollen grain floating on a drop of water moves across the surface of the water becuase it's constatly pushed around by water moecules.
+
+# -----------------------
+#   Creating the RandomWalk() Class
+# files inside randomewalk.py file      
+
+import matplotlib.pyplot as plt
+
+from random_walk import RandomWalk
+
+while True:
+
+    # Make Random Walk
+    rw = RandomWalk(50000)
+    rw.fill_walk()
+
+    # Plot the points in the walk. 
+    plt.style.use('classic')
+    # Altering the sise to fill the screen
+    fig, ax = plt.subplots(figsize=(15,9), dpi=64)
+    point_numbers = range(rw.num_points)
+    ax.scatter(rw.x_values, rw.y_values, c=rw.y_values, cmap=plt.cm.Blues, s=10)
+    # ax.plot(rw.x_values, rw.y_values, linewidth=3) # return line points
+
+    # Emphasize the first and last points
+    ax.scatter(0, 0, c='green', edgecolors='none', s=100)
+    ax.scatter(rw.x_values[-1], rw.y_values[-1], c='red', edgecolors='none', s=100)
+    
+
+    # Remove the axes
+    ax.get_xaxis().set_visible(False)
+    ax.get_yaxis().set_visible(False)
+
+    plt.show()
+
+    keep_running = input("Make another Walk? (y/n): ")
+    if keep_running == 'n':
+        break
